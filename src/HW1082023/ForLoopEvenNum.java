@@ -1,3 +1,5 @@
+package HW1082023;
+
 public class ForLoopEvenNum {
     public static void main(String[] args) {
         for (int i = 20; i >=1; i -= 2) {

@@ -1,3 +1,5 @@
+package HW01142023;
+
 import java.util.Scanner;
 
 public class CreditCard10x {
@@ -6,7 +8,8 @@ public class CreditCard10x {
 
         for (int i=0;i<=10;i++){
             System.out.println("Do you need a credit card?");
-            if (scan.nextLine().equals("yes")){
+            String cc= scan.next();
+            if (cc.equalsIgnoreCase("yes")){
                 break;
             }
         }
