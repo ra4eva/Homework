@@ -5,6 +5,7 @@ public class Phone {
     String color;
     String brand;
     int price;
+    boolean isUnlocked;
 
 
     void call (){System.out.println("Dialing");}

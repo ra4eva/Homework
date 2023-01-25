@@ -1,4 +1,4 @@
-package HW1082023;
+package HW182023;
 
 public class ForLoop100 {
     public static void main(String[] args) {
