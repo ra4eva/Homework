@@ -21,7 +21,5 @@ public class StringBabyNameAsghar {
         }else{
 
         }
-        System.out.println(firstHalf+secondHalf);
-
     }
 }
