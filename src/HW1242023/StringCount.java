@@ -10,6 +10,6 @@ public class StringCount {
                 count++;
         }
         System.out.println(count); //Method 1
-        System.out.println(str.replaceAll("[^a-zA-Z0-9]","").length()); //Method 2
+        System.out.println(str.replaceAll("[^a-zA-Z0-9]","").length()); //Method 2 //this is better method
     }
 }
