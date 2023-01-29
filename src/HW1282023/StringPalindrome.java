@@ -12,6 +12,6 @@ public class StringPalindrome {
 
     public static void main(String[] args) {
         StringPalindrome str=new StringPalindrome();
-        System.out.println(str.ifPalindrome("tacocat"));
+        System.out.println(str.ifPalindrome("banana"));
     }
 }
