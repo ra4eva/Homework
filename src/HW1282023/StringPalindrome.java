@@ -1,13 +1,17 @@
 package HW1282023;
 
 public class StringPalindrome {
-    String reverseStr1(String input){
-        return new StringBuilder(input).reverse().toString();
+    Boolean ifPalindrome(String input) {
+        StringBuilder str = new StringBuilder(input);
+        if (input.equals(str.reverse().toString())) {
+            return true;
+        } else {
+            return false;
         }
+    }
 
     public static void main(String[] args) {
         StringPalindrome str=new StringPalindrome();
-        System.out.println(str.reverseStr1("Good Vibes Only"));
-
+        System.out.println(str.ifPalindrome("tacocat"));
     }
 }
