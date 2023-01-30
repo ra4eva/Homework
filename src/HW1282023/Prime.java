@@ -1,21 +1,23 @@
 package HW1282023;
 
 public class Prime {
-    boolean isPrime(int num){
-        int count=0;
-        for (int i = 1; i <=num; i++) {
-            if (num%i==0){
-                count++;
+    boolean isPrime(int a){
+        boolean num=true;
+        if (a>1){
+            for (int i = 2; i < a; i++) {
+                if (a%i==0) {
+                    num = false;
+                    break;
+                }
             }
-        }if (count==2){
-            return true;
+
         }else {
-            return false;
+            num = false;
         }
+        return num;
     }
     public static void main(String[] args) {
         Prime num=new Prime();
-        System.out.println(num.isPrime(4));
+        System.out.println(num.isPrime(10));
     }
-
-    }
+}
