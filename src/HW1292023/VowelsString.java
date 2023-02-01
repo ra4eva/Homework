@@ -2,13 +2,12 @@ package HW1292023;
 
 public class VowelsString {
 
-    private String vowels(String str){
-        return str.replaceAll("[^aeiou]"," ");
+    private static String vowels(String str){
+        return str.replaceAll("[^aeiouAEIOU]"," ");
     }
 
     public static void main(String[] args) {
-        VowelsString a=new VowelsString();
-        System.out.println(a.vowels("I love Java"));
+        System.out.println(VowelsString.vowels("I love Java"));
 
     }
 }

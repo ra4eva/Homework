@@ -7,6 +7,11 @@ public class RevString {
         String reversed=a.toString();
         for (int i = reversed.length()-1; i >=0; i--) {
             return reversed;
+
+         /*   StringBuilder st = new StringBuilder(str);
+            st.reverse();
+            String revSt = st.toString();
+            return revSt;*/ //---->another way to do it
         }
         return str;
     }
