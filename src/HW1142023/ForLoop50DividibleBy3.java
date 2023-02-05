@@ -1,4 +1,4 @@
-package HW01142023;
+package HW1142023;
 
 public class ForLoop50DividibleBy3 {
     public static void main(String[] args) {
