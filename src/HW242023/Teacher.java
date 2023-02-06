@@ -10,15 +10,44 @@ public class Teacher {
 
     String name;
 
-    void assign(){
+    public void assign(){
         System.out.println(name+ " assigns homework to the students");
     }
-    void yells(){
+    public void yells(){
         System.out.println(name+ " yells at bad student");
     }
-    void teach(){
+    public void teach(){
         System.out.println(name+ " teaches "+subject);
-    }void lunchbrk(){
+    }
+    public void lunchbrk(){
         System.out.println(name+ " eats lunch");
     }
 }
+class CTeacher extends Teacher {
+
+    int gradelevel;
+
+    int years;
+
+
+}
+ class MTeacher extends Teacher {
+    String mathSub;
+
+    int gradelevel;
+
+    int years;
+
+    boolean degree=true;
+}
+class PianoTeacher extends Teacher {
+
+    String  teachLvl;
+
+    int years;
+}
+
+
+
+
+
