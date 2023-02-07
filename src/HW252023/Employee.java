@@ -57,7 +57,7 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Employee emp1=new Employee("Abeera",123,"3");
+        FullTime emp1=new FullTime("Abeera",123,"3",30);
         emp1.printInfor();
         System.out.println(emp1.getPaycheck(15,40));
 
