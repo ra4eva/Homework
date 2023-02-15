@@ -9,6 +9,11 @@ public class ComputerTester {
             computer.oN();
             computer.oFF();
             computer.sleepMode();
+
+            if (computer instanceof Dell) {//we are checking if the variable c contains the object of dell calss
+                Dell dell = (Dell) computer;
+                dell.blueScreen();
+            }
         }
     }
 }

@@ -1,6 +1,11 @@
 package HW2112023;
 
 public class Computer {
+    int Ram;
+
+    int storage;
+
+    String OS;
 
     public void oN(){
         System.out.println("Computer turns on");
