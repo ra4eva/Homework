@@ -38,7 +38,7 @@ class B extends Marks{
     }
 
     public static void main(String[] args) {
-        Marks [] mark={new A(88,98,48),new B(99,100,75,88)};
+        Marks [] mark={new A(78,98,48),new B(99,100,75,88)};
 
         for (Marks m:mark){
             m.getPercentage();

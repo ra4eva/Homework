@@ -7,7 +7,7 @@ public class WebDriverTester {
          browser.open();
          browser.close();
          browser.getTitle();
-       /*  browser.navigate method is not avaiable */
+       /*  browser.navigate method is not available */
      }
     }
 }
