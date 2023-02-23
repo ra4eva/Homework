@@ -12,7 +12,9 @@ public class TextBoxes {
         driver.manage().window().maximize();
 
         driver.findElement(By.linkText("Create new account")).click();
+
         Thread.sleep(1000);
+
         driver.findElement(By.name("firstname")).sendKeys("Gojo");
         driver.findElement(By.name("lastname")).sendKeys("Satoru");
         driver.findElement(By.name("reg_email__")).sendKeys("Gojo@gmail.com");
@@ -23,7 +25,9 @@ public class TextBoxes {
         driver.findElement(By.id("year")).sendKeys("1989");
         driver.findElement(By.name("sex")).click();
         driver.findElement(By.name("websubmit")).click();
+
         Thread.sleep(1000);
+        
         driver.quit();
 
 
