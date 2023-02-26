@@ -13,7 +13,7 @@ public class FillForm {
 
         driver.manage().window().maximize();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         driver.findElement(By.id("customer.firstName")).sendKeys("Gojo");
         driver.findElement(By.id("customer.lastName")).sendKeys("Satoru");
@@ -28,7 +28,7 @@ public class FillForm {
         driver.findElement(By.id("repeatedPassword")).sendKeys("GojoGoat");
         driver.findElement(By.className("button")).click();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         driver.quit();
     }

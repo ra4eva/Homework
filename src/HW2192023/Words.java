@@ -11,7 +11,6 @@ public class Words {
         words.add("Ablaze");
 
         words.removeIf(word->word.endsWith("e"));
-
         System.out.println(words);
 
     }

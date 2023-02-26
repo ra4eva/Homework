@@ -21,13 +21,13 @@ public class TextBoxes {
         driver.findElement(By.name("reg_email_confirmation__")).sendKeys("Gojo@gmail.com");
         driver.findElement(By.name("reg_passwd__")).sendKeys("SILovejjk");
         driver.findElement(By.id("month")).sendKeys("Dec");
-        driver.findElement(By.id("day")).sendKeys("7");
+        driver.findElement(By.id("day")).sendKeys("9");
         driver.findElement(By.id("year")).sendKeys("1989");
-        driver.findElement(By.name("sex")).click();
+        driver.findElement(By.xpath("//*[contains(text(),'Male')]")).click();//for male
         driver.findElement(By.name("websubmit")).click();
 
-        Thread.sleep(1000);
-        
+        Thread.sleep(2000);
+
         driver.quit();
 
 

@@ -2,12 +2,14 @@ package Project2152023;
 
 public class WebDriverTester {
     public static void main(String[] args) {
-        WebDriver [] browswers={new ChromeDriver(),new FirefoxDriver(),new SafariDriver()};
-     for (WebDriver browser:browswers){
+
+        RemoteWebDriver [] browswers={new ChromeDriver(),new FirefoxDriver(),new SafariDriver()};
+     for (RemoteWebDriver browser:browswers){
          browser.open();
          browser.close();
          browser.getTitle();
-       /*  browser.navigate method is not available */
+         browser.getScreenshot();
+         browser.navigate();
      }
     }
 }
