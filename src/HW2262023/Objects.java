@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Objects {
     public static void main(String[] args) {
-        Set<String> string=new LinkedHashSet<>();
+        Set<String> string = new LinkedHashSet<>();
         string.add("Set");
         string.add("you");
         string.add("heart");
@@ -14,5 +14,9 @@ public class Objects {
 
         String concatStr = String.join("", string);
         System.out.println(concatStr);
+
+        for (String str : string) {
+            System.out.print(string + " ");
+        }
     }
 }

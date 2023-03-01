@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DupIntergers {
     public static void main(String[] args) {
-        ArrayList<Integer> duplicateNum=new ArrayList<>(); //Can't thing of any list that takes duplicates but this or linkedlist
+        ArrayList<Integer> duplicateNum=new ArrayList<>(); //Can't think of any list that takes duplicates but this or linkedlist
         duplicateNum.add(100);
         duplicateNum.add(500);
         duplicateNum.add(600);

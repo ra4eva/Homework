@@ -13,7 +13,7 @@ public class BestBuy {
         bestbuy.put(7774959,"Keyboard");
         bestbuy.put(8956114,"PC");
 
-        /* Notes for understanding: For loop to go over the entrySet() of bestbuy, on each map.entry object I use getKey()
+        /* Notes for understanding: For loop to go over the entrySet() used to iterate thru elements of bestbuy, on each map.entry object I use getKey()
         for they keys and getValue for the values*/
         for (Map.Entry<Integer, String> entry : bestbuy.entrySet()) {
             System.out.println(entry.getKey()+" "+entry.getValue());
